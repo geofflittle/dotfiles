@@ -1,0 +1,12 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": ["dist"],
+  "author": "Geoff Little <g.little712@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "clean": "rm -rf dist",
+      "build": "yarn clean && mkdir dist && cp -r src/. dist"
+  }
+}
