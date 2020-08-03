@@ -1,4 +1,5 @@
 *.log
 *.out
+.cache
 dist
 node_modules
